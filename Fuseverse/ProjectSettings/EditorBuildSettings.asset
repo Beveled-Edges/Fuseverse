@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ParticleWindTest.unity
+    guid: 9f71ce038fde9f24ab3c9f57fdca5de7
   m_configObjects: {}
