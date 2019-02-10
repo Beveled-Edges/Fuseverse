@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 110666247}
   - component: {fileID: 110666246}
   - component: {fileID: 110666245}
+  - component: {fileID: 110666249}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Planet
@@ -204,6 +205,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &110666249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110666244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15c4573c46a00c40be489c0bc8f0a23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gasShader: {fileID: 2100000, guid: ada0e702483eced479f44f6863d21509, type: 2}
+  shaderOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &703840667
 GameObject:
   m_ObjectHideFlags: 0
